@@ -22,3 +22,6 @@ http://testphp.vulnweb.com
 
 ## Disclaimer
 This project is for educational purposes only.
+
+Additional screenshots for nmap scan and broswer header verification are included for verification
+
