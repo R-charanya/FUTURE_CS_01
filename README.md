@@ -1,27 +1,21 @@
-# Vulnerability Assessment Report – Task 1
+# Task 1 – Vulnerability Assessment Report
 
-## Internship Program
-Future Interns – Cyber Security
+Track: Cyber Security (CS)
 
-## Objective
-To perform a basic vulnerability assessment on a public demo website
-using legal and non-intrusive security testing techniques.
-
-## Target Website
+Target Website:
 http://testphp.vulnweb.com
 
-## Tools Used
-- OWASP ZAP
+Tools Used:
+- OWASP ZAP (Passive Scan)
 - Nmap
 - Browser Developer Tools
+- Canva (Report Design)
 
-## Findings
-- Missing Anti-Clickjacking Header (Medium)
-- Content Security Policy Header Not Set (High)
-- X-Powered-By Header Information Disclosure (Low)
+Description:
+This repository contains a vulnerability assessment report
+performed on a public demo website for educational purposes.
+The assessment includes identification of vulnerabilities,
+risk classification, and remediation recommendations.
 
-## Disclaimer
-This project is for educational purposes only.
-
-Additional screenshots for nmap scan and broswer header verification are included for verification
-
+Note:
+No intrusive or illegal testing was performed.
