@@ -1,38 +1,47 @@
-#FUTURE_CS_01
+FUTURE_CS_01
+Web Application Security Testing Report
+📌 Project Overview
 
-##Web Application Vulnerability Assessment
+This repository contains a basic web application security assessment performed on a publicly available test website. The assessment focuses on identifying common security misconfigurations and missing security headers using safe and non-intrusive techniques.
 
-## Task Overview
-This repository contains the vulnerability assessment report conducted on a public demo website as part of the cybersecurity internship task.
+🎯 Objective
 
-## Target Website
-- URL: http://testphp.vulnweb.com
-- Type: Public demo website
-- Authentication: Not required
+Identify missing or misconfigured HTTP security headers
 
-## Tools Used
-- OWASP ZAP (Passive Scan)
-- Browser Developer Tools
-- Nmap (Service Version Scan)
+Understand basic web security issues
 
-## Findings Summary
-- Low Risk Issues
-- Medium Risk Issues
-- No High Risk vulnerabilities identified
+Document findings in a professional manner
 
-## Report
-- Web_Application_Vulnerability_Assessment_Report.pdf
+🛠 Tools Used
 
-## Screenshots
-All supporting screenshots are available in the  screenshots folder.
+OWASP ZAP (Passive Scan)
 
-## Disclaimer
-This assessment was performed strictly for educational purposes on a publicly available demo website.
+Browser Developer Tools
 
+Nmap (Basic Network Scan)
 
-##Recommendations
--Implement essential HTTP security headers such as Content-Security-Policy and X-Frame-Options.
--Secure cookies using HttpOnly and Secure flags.
--Avoid exposing unnecessary server or application information.
--Perform periodic security scans using standard tools.
--Enforce HTTPS for secure data transmission.
+🔍 Findings Summary
+Vulnerability	Risk Level
+Missing Content-Security-Policy Header	Medium
+Missing Anti-Clickjacking Header (X-Frame-Options)	Medium
+Information Disclosure (X-Powered-By Header)	Low
+Timestamp Disclosure	Low
+🖼 Evidence
+
+All supporting screenshots related to OWASP ZAP findings, Browser Developer Tools verification, and Nmap scan results are available in the screenshots folder.
+
+🧠 Risk Analysis
+
+Medium Risk: Missing security headers may increase exposure to client-side attacks such as clickjacking or script injection.
+
+Low Risk: Information disclosure issues may assist attackers in fingerprinting the application.
+
+🔐 Recommendations
+
+Implement essential HTTP security headers such as Content-Security-Policy and X-Frame-Options.
+
+Secure cookies using HttpOnly and Secure attributes.
+
+Avoid exposing unnecessary server or application information.
+
+Perform periodic security scans using standard security tools.
