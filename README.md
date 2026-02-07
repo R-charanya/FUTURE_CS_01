@@ -1,64 +1,48 @@
 # FUTURE_CS_01
 # Web Application Vulnerability Assessment
 
-## Task Overview
-This repository contains the vulnerability assessment report conducted on a public demo website as part of the cybersecurity internship task.
+## Internship Task – Web Security Testing
+
+This repository contains the results of a web application vulnerability assessment conducted as part of my cybersecurity internship task.
+
+## Objective
+To perform vulnerability assessment on a publicly available demo web application using industry-standard security tools.
 
 ## Target Website
-- URL: http://testphp.vulnweb.com
-- Type: Public demo website
-- Authentication: Not required
+Demo Testfire Application  
+http://demo.testfire.net/
 
 ## Tools Used
-- OWASP ZAP (Passive Scan)
+- Nmap (Network Scanning)
+- OWASP ZAP (Vulnerability Scanner)
 - Browser Developer Tools
-- Nmap (Service Version Scan)
+- AJAX Spider (Application Crawling)
 
-## Findings Summary
-- Low Risk Issues
-- Medium Risk Issues
-- No High Risk vulnerabilities identified
+## Testing Activities
+- Network port scanning using Nmap
+- Automated vulnerability scanning using OWASP ZAP
+- AJAX Spider crawling for dynamic content
+- HTTP header inspection using Browser DevTools
 
-## Report
-- Web_Application_Vulnerability_Assessment_Report.pdf
+## Vulnerabilities Observed
+The scan identified the following issues:
 
-## Screenshots
-All supporting screenshots are available in the `screenshots/` folder.
+- Missing Content Security Policy Header
+- Missing Anti-clickjacking Header
+- Cookie without HttpOnly flag
+- Timestamp Disclosure
+- Security header configuration weaknesses
+
+No High-risk vulnerabilities were detected during testing. Issues observed were mainly medium and low risk.
+
+## Repository Contents
+- Vulnerability Assessment Report (PDF)
+- Nmap scan results
+- OWASP ZAP scan screenshots
+- Browser DevTools analysis screenshots
+- AJAX Spider crawl results
+
+All screenshots are stored inside the **screenshots/** folder.
 
 ## Disclaimer
-This assessment was performed strictly for educational purposes on a publicly available demo website.# Web Application Vulnerability Assessment
-
-## Task Overview
-This repository contains the vulnerability assessment report conducted on a public demo website as part of the cybersecurity internship task.
-
-## Target Website
-- URL: http://testphp.vulnweb.com
-- Type: Public demo website
-- Authentication: Not required
-
-## Tools Used
-- OWASP ZAP (Passive Scan)
-- Browser Developer Tools
-- Nmap (Service Version Scan)
-
-## Findings Summary
-- Low Risk Issues
-- Medium Risk Issues
-- No High Risk vulnerabilities identified
-
-## Report
-- Web_Application_Vulnerability_Assessment_Report.pdf
-
-## Screenshots
-All supporting screenshots are available in the `screenshots/` folder.
-
-# Recommendations
-
-Implement essential HTTP security headers such as Content-Security-Policy (CSP) and X-Frame-Options to prevent common web attacks.
-Secure cookies by enabling HttpOnly and Secure flags to protect session data.
-Avoid exposing unnecessary server or application information in HTTP response headers.
-Perform periodic security scans using standard vulnerability assessment tools to identify potential issues early.
-Enforce HTTPS to ensure secure data transmission between clients and the server.
-
-## Disclaimer
-This assessment was performed strictly for educational purposes on a publicly available demo website.
+This assessment was conducted only on a publicly available demo application for educational purposes.
