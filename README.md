@@ -23,7 +23,7 @@ This repository contains the vulnerability assessment report conducted on a publ
 - Web_Application_Vulnerability_Assessment_Report.pdf
 
 ## Screenshots
-All supporting screenshots are available in the `screenshots/` folder.
+All supporting screenshots are available in the screenshots  folder.
 
 ##Recommendations
 
