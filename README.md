@@ -1,18 +1,18 @@
 FUTURE_CS_01
-Web Application Vulnerability Assessment
-Task Overview
+WEB APPLICATION VULNERABILITY ASSESSMENT
+TASK OVERVIEW
 
 This repository contains a vulnerability assessment report conducted on a publicly accessible demo website as part of a cybersecurity internship task. The assessment was performed using ethical and non-intrusive security testing techniques.
 
-Target Website
+TARGET WEBSITE
 
 URL: http://testphp.vulnweb.com
 
-Type: Public demo website
+TYPE: Public demo website
 
-Authentication: Not required
+AUTHENTICATION: Not required
 
-Tools Used
+TOOLS USED
 
 OWASP ZAP (Passive Scan)
 
@@ -20,23 +20,23 @@ Browser Developer Tools
 
 Nmap (Service Version Scan)
 
-Findings Summary
+FINDINGS SUMMARY
 
-Low-risk security issues
+LOW-RISK security issues
 
-Medium-risk security issues
+MEDIUM-RISK security issues
 
-No high-risk vulnerabilities were identified
+NO HIGH-RISK vulnerabilities identified
 
-Report
+REPORT
 
 Web_Application_Vulnerability_Assessment_Report.pdf
 
-Screenshots
+SCREENSHOTS
 
 All supporting screenshots related to OWASP ZAP findings, Browser Developer Tools verification, and Nmap scan results are available in the screenshots/ folder.
 
-Recommendations
+RECOMMENDATIONS
 
 Implement essential HTTP security headers such as Content-Security-Policy and X-Frame-Options.
 
@@ -46,6 +46,6 @@ Avoid exposing unnecessary server or application information.
 
 Perform periodic security scans using standard security tools.
 
-Disclaimer
+DISCLAIMER
 
 This assessment was conducted strictly for educational purposes on a publicly available demo website. No exploitation or malicious activity was performed.
