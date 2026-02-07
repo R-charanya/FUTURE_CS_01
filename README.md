@@ -43,6 +43,16 @@ No High-risk vulnerabilities were detected during testing. Issues observed were 
 - AJAX Spider crawl results
 
 All screenshots are stored inside the **screenshots/** folder.
+## Recommendations
+To improve the security posture of the web application, the following measures are recommended:
+
+- Implement Content Security Policy (CSP) headers to prevent cross-site scripting attacks.
+- Enable Anti-clickjacking protection using X-Frame-Options or CSP frame restrictions.
+- Configure cookies with HttpOnly and Secure flags to prevent client-side access.
+- Disable or hide server timestamp information to reduce information disclosure.
+- Implement proper security headers configuration across all pages.
+- Regularly perform vulnerability assessments and security testing.
+- Keep web server and application components updated with security patches.
 
 ## Disclaimer
 This assessment was conducted only on a publicly available demo application for educational purposes.
