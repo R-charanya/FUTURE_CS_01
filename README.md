@@ -10,7 +10,7 @@ To perform vulnerability assessment on a publicly available demo web application
 
 ## Target Website
 Demo Testfire Application  
-http://demo.testfire.net/
+http://testphp.vulnweb.com
 
 ## Tools Used
 - Nmap (Network Scanning)
