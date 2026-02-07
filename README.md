@@ -1,51 +1,64 @@
-FUTURE_CS_01
-WEB APPLICATION VULNERABILITY ASSESSMENT
-TASK OVERVIEW
+#FUTURE_CS_01
+# Web Application Vulnerability Assessment
 
-This repository contains a vulnerability assessment report conducted on a publicly accessible demo website as part of a cybersecurity internship task. The assessment was performed using ethical and non-intrusive security testing techniques.
+## Task Overview
+This repository contains the vulnerability assessment report conducted on a public demo website as part of the cybersecurity internship task.
 
-TARGET WEBSITE
+## Target Website
+- URL: http://testphp.vulnweb.com
+- Type: Public demo website
+- Authentication: Not required
 
-URL: http://testphp.vulnweb.com
+## Tools Used
+- OWASP ZAP (Passive Scan)
+- Browser Developer Tools
+- Nmap (Service Version Scan)
 
-TYPE: Public demo website
+## Findings Summary
+- Low Risk Issues
+- Medium Risk Issues
+- No High Risk vulnerabilities identified
 
-AUTHENTICATION: Not required
+## Report
+- Web_Application_Vulnerability_Assessment_Report.pdf
 
-TOOLS USED
+## Screenshots
+All supporting screenshots are available in the `screenshots/` folder.
 
-OWASP ZAP (Passive Scan)
+## Disclaimer
+This assessment was performed strictly for educational purposes on a publicly available demo website.# Web Application Vulnerability Assessment
 
-Browser Developer Tools
+## Task Overview
+This repository contains the vulnerability assessment report conducted on a public demo website as part of the cybersecurity internship task.
 
-Nmap (Service Version Scan)
+## Target Website
+- URL: http://testphp.vulnweb.com
+- Type: Public demo website
+- Authentication: Not required
 
-FINDINGS SUMMARY
+## Tools Used
+- OWASP ZAP (Passive Scan)
+- Browser Developer Tools
+- Nmap (Service Version Scan)
 
-LOW-RISK security issues
+## Findings Summary
+- Low Risk Issues
+- Medium Risk Issues
+- No High Risk vulnerabilities identified
 
-MEDIUM-RISK security issues
+## Report
+- Web_Application_Vulnerability_Assessment_Report.pdf
 
-NO HIGH-RISK vulnerabilities identified
+## Screenshots
+All supporting screenshots are available in the `screenshots/` folder.
 
-REPORT
+Recommendations
 
-Web_Application_Vulnerability_Assessment_Report.pdf
+Implement essential HTTP security headers such as Content-Security-Policy (CSP) and X-Frame-Options to prevent common web attacks.
+Secure cookies by enabling HttpOnly and Secure flags to protect session data.
+Avoid exposing unnecessary server or application information in HTTP response headers.
+Perform periodic security scans using standard vulnerability assessment tools to identify potential issues early.
+Enforce HTTPS to ensure secure data transmission between clients and the server.
 
-SCREENSHOTS
-
-All supporting screenshots related to OWASP ZAP findings, Browser Developer Tools verification, and Nmap scan results are available in the screenshots/ folder.
-
-RECOMMENDATIONS
-
-Implement essential HTTP security headers such as Content-Security-Policy and X-Frame-Options.
-
-Secure cookies using HttpOnly and Secure attributes.
-
-Avoid exposing unnecessary server or application information.
-
-Perform periodic security scans using standard security tools.
-
-DISCLAIMER
-
-This assessment was conducted strictly for educational purposes on a publicly available demo website. No exploitation or malicious activity was performed.
+## Disclaimer
+This assessment was performed strictly for educational purposes on a publicly available demo website.
