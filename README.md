@@ -1,4 +1,4 @@
-#FUTURE_CS_01
+# FUTURE_CS_01
 # Web Application Vulnerability Assessment
 
 ## Task Overview
@@ -52,7 +52,7 @@ This repository contains the vulnerability assessment report conducted on a publ
 ## Screenshots
 All supporting screenshots are available in the `screenshots/` folder.
 
-Recommendations
+# Recommendations
 
 Implement essential HTTP security headers such as Content-Security-Policy (CSP) and X-Frame-Options to prevent common web attacks.
 Secure cookies by enabling HttpOnly and Secure flags to protect session data.
