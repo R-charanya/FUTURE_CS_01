@@ -1,5 +1,6 @@
 #FUTURE_CS_01
-#Web Application Vulnerability Assessment
+
+##Web Application Vulnerability Assessment
 
 ## Task Overview
 This repository contains the vulnerability assessment report conducted on a public demo website as part of the cybersecurity internship task.
@@ -27,3 +28,11 @@ All supporting screenshots are available in the  screenshots folder.
 
 ## Disclaimer
 This assessment was performed strictly for educational purposes on a publicly available demo website.
+
+
+##Recommendations
+-Implement essential HTTP security headers such as Content-Security-Policy and X-Frame-Options.
+-Secure cookies using HttpOnly and Secure flags.
+-Avoid exposing unnecessary server or application information.
+-Perform periodic security scans using standard tools.
+-Enforce HTTPS for secure data transmission.
